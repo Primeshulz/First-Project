@@ -74,7 +74,7 @@
     <form action="process.php" method="POST">
         <div>
         <label>First Name</label>
-        <input type="text" name="firstName">
+        <input type="text" name="firstName" placeholder="Enter your First Name">
         </div>
         <br>
         <div>
@@ -86,7 +86,35 @@
         <label>Email</label>
         <input type="email" name="email">
         </div>
+        <br>
+        <div>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+        <label>Gender</label>
+        <select name="Gender">
+            <option> Male</option>
+            <option> Female</option>
+            <option> Other</option>
+        </select>
+        </div>
+        <br>
+        <div>
+        <label>Age</label>
+        <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <label>DOB</label>
+        <input type="date" name="DOB">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="submit">
     </form>
+
+    <!-- Buttons -->
+    <button>Click Me</button>
 
 </body>
 </html>
